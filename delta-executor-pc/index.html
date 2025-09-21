@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delta Executor - Roblox</title>
+  <style>
+    :root {
+      --primary:#0d47a1;
+      --secondary:#00b0ff;
+      --background:#010409;
+      --text:#e0e8f0;
+      --card-bg:rgba(3,10,23,0.8);
+    }
+    *{ box-sizing:border-box; margin:0; padding:0; }
+    body {
+      font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height:1.5;
+    }
+    header {
+      padding: 1rem 2rem;
+      background: var(--background);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      border-bottom:1px solid rgba(100,160,255,0.1);
+    }
+    .logo { font-size:1.5rem; font-weight:bold; color: var(--secondary); }
+    .nav a { margin-left:1rem; color: var(--text); text-decoration:none; font-size:1rem; }
+    .hero {
+      padding: 4rem 2rem;
+      text-align:center;
+      background: radial-gradient(circle at top left, var(--primary), var(--background));
+    }
+    .hero h1 { font-size:2.5rem; margin-bottom:1rem; color:#69b7ff; }
+    .hero p { margin-bottom:2rem; font-size:1.2rem; color:#c0c8d0; }
+    .cta-button {
+      display:inline-block;
+      padding:0.75rem 1.75rem;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      color:#fff;
+      font-weight:bold;
+      border-radius:0.5rem;
+      text-decoration:none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .cta-button:hover { transform: translateY(-2px); box-shadow:0 6px 15px rgba(0,176,255,0.4); }
+    .cta-button:active { transform:translateY(0); box-shadow:0 4px 10px rgba(0,176,255,0.3); }
+    .stats { display:flex; flex-wrap:wrap; justify-content:center; margin:3rem auto; max-width:900px; }
+    .stat { flex:1 1 200px; margin:1rem; text-align:center; }
+    .stat h2 { font-size:2rem; color:#69b7ff; }
+    .stat p { font-size:1rem; color:#c0c8d0; }
+    .features { display:flex; flex-wrap:wrap; justify-content:center; margin:2rem auto; max-width:1000px; }
+    .feature-card { flex:1 1 280px; margin:1rem; background: var(--card-bg); border:1px solid rgba(100,160,255,0.2); border-radius:0.75rem; padding:1.5rem; }
+    .feature-card h3 { font-size:1.3rem; margin-bottom:0.5rem; color:#69b7ff; }
+    .feature-card p { color:#c0c8d0; font-size:1rem; }
+    .footer {
+      padding:2rem 1rem;
+      text-align:center;
+      border-top:1px solid rgba(100,160,255,0.1);
+      margin-top:3rem;
+      background: var(--background);
+      color:#8898aa;
+      font-size:0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Delta</div>
+    <nav class="nav">
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>The Future of Roblox Execution</h1>
+    <p>Experience a premium executor loved by millions of users. Your scripts run faster and safer with Delta.</p>
+    <a href="https://www.roblox.com/share?code=b233c22a5b0a5e4cabd5f79b4b53c8ff&amp;type=Server" target="_blank" rel="noopener noreferrer" class="cta-button">Download Delta</a>
+  </section>
+  <section class="stats">
+    <div class="stat">
+      <h2>5M+</h2>
+      <p>Users worldwide</p>
+    </div>
+    <div class="stat">
+      <h2>24/7</h2>
+      <p>Support</p>
+    </div>
+    <div class="stat">
+      <h2>Free</h2>
+      <p>Forever</p>
+    </div>
+  </section>
+  <section id="features" class="features">
+    <div class="feature-card">
+      <h3>Premium Experience</h3>
+      <p>Enjoy a sleek interface and powerful performance built for the future of Roblox execution.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Fast Updates</h3>
+      <p>Stay ahead with frequent updates and new features delivered by our dedicated team.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Secure & Reliable</h3>
+      <p>Your data stays safe with industry‑leading encryption and security protocols.</p>
+    </div>
+    <div class="feature-card">
+      <h3>24/7 Support</h3>
+      <p>Our support team is ready to help you around the clock. Join our community for quick assistance.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Open & Free</h3>
+      <p>Delta is completely free and open to everyone. Enjoy all features at no cost.</p>
+    </div>
+    <div class="feature-card">
+      <h3>High Performance</h3>
+      <p>Delta runs your scripts with blazing speed and efficiency, delivering the best execution environment.</p>
+    </div>
+  </section>
+  <section id="download" class="hero" style="padding:3rem 2rem;">
+    <h1>Ready to Get Started?</h1>
+    <p>Download Delta and unlock the best Roblox executor experience.</p>
+    <a href="https://www.roblox.com/share?code=b233c22a5b0a5e4cabd5f79b4b53c8ff&amp;type=Server" target="_blank" rel="noopener noreferrer" class="cta-button">Get Delta Now</a>
+  </section>
+  <footer class="footer">
+    <p>&copy; 2025 Delta Executor. Not affiliated with Roblox Corporation.</p>
+  </footer>
+</body>
+</html>
