@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Delta Executor for Android</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      background: linear-gradient(180deg, #0a0f24, #020c1d);
+      color: #e0e8f0;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    /* Hero section */
+    .hero {
+      text-align: center;
+      padding: 4rem 1rem 3rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: #69b7ff;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #c0d4e5;
+      max-width: 800px;
+      margin: 0 auto 2rem;
+      line-height: 1.5;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 0.75rem 2rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      background: linear-gradient(90deg, #1e90ff, #69b7ff);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+    .cta-button:active {
+      transform: translateY(0);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    }
+    /* Stats section */
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .stat {
+      flex: 1 1 30%;
+      max-width: 260px;
+      text-align: center;
+    }
+    .stat h2 {
+      font-size: 2.2rem;
+      color: #69b7ff;
+      margin-bottom: 0.3rem;
+    }
+    .stat p {
+      color: #c0d4e5;
+      font-size: 1rem;
+    }
+    /* Features section */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.8rem;
+      margin-top: 4rem;
+    }
+    .feature-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(100, 160, 255, 0.15);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+    .feature-card:hover {
+      transform: translateY(-4px);
+    }
+    .feature-card h3 {
+      font-size: 1.4rem;
+      color: #69b7ff;
+      margin-bottom: 0.6rem;
+    }
+    .feature-card p {
+      color: #c0d4e5;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    /* Download section */
+    .download-section {
+      text-align: center;
+      margin-top: 5rem;
+    }
+    .download-section h2 {
+      font-size: 2.4rem;
+      color: #69b7ff;
+      margin-bottom: 1rem;
+    }
+    .download-section p {
+      color: #c0d4e5;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.4rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+      .stat h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <h1>Download Delta for Android</h1>
+      <p>Experience the future of scripting with Delta. Join millions of users who trust our innovative and reliable executor for Roblox.</p>
+      <a href="https://www.roblox.com/share?code=b233c22a5b0a5e4cabd5f79b4b53c8ff&amp;type=Server" class="cta-button" target="_blank" rel="noopener noreferrer">Get Delta Now</a>
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <h2>5M+</h2>
+        <p>Users</p>
+      </div>
+      <div class="stat">
+        <h2>Free</h2>
+        <p>Forever</p>
+      </div>
+      <div class="stat">
+        <h2>24/7</h2>
+        <p>Support</p>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature-card">
+        <h3>One-up the Competition</h3>
+        <p>Stand out from the crowd with Delta's unique features and groundbreaking technology that will mesmerize your audience.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Fast Key System</h3>
+        <p>Get your key in no time with our blazing-fast key system—no more waiting around or intrusive ads.</p>
+      </div>
+      <div class="feature-card">
+        <h3>High Script Support</h3>
+        <p>Our custom executing engine supports a wide range of scripts to keep you ahead of the game.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Best Script Hub</h3>
+        <p>Save, manage, and execute your favorite scripts anytime in our intuitive script hub.</p>
+      </div>
+      <div class="feature-card">
+        <h3>User-Friendly UI</h3>
+        <p>Navigate effortlessly with a clean and intuitive interface designed for ease of use.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Secure & Reliable</h3>
+        <p>Delta keeps your data safe and executes scripts smoothly with top-notch security protocols.</p>
+      </div>
+    </section>
+
+    <section class="download-section">
+      <h2>Ready to Experience Delta?</h2>
+      <p>Unlock the best Roblox executor experience today. Click below to get started with Delta for Android.</p>
+      <a href="https://www.roblox.com/share?code=b233c22a5b0a5e4cabd5f79b4b53c8ff&amp;type=Server" class="cta-button" target="_blank" rel="noopener noreferrer">Download Delta</a>
+    </section>
+  </div>
+</body>
+</html>
